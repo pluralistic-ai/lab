@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Pluralistic AI Lab network mark</title>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="64" cy="64" r="55" stroke="#013ECD" stroke-width="1.6"/>
+    <circle cx="64" cy="64" r="49" stroke="#76A0F2" stroke-width="0.8" stroke-dasharray="0.2 2.2"/>
+    <circle cx="64" cy="64" r="28.5" stroke="#76A0F2" stroke-width="0.8" stroke-dasharray="0.2 2.2"/>
+
+    <path d="M64 35.5 39.3 78.25H88.7L64 35.5Z" stroke="#013ECD" stroke-width="1.25"/>
+
+    <g stroke="#76A0F2" stroke-width="0.8" stroke-dasharray="0.2 2.2">
+      <circle cx="64" cy="35.5" r="7.5"/>
+      <circle cx="39.3" cy="78.25" r="7.5"/>
+      <circle cx="88.7" cy="78.25" r="7.5"/>
+    </g>
+
+    <g stroke="#013ECD" stroke-width="1.25" fill="#FAFAFA">
+      <circle cx="64" cy="35.5" r="5"/>
+      <circle cx="39.3" cy="78.25" r="5"/>
+      <circle cx="88.7" cy="78.25" r="5"/>
+    </g>
+
+    <g stroke="#5F8DE6" stroke-width="0.9">
+      <circle cx="64" cy="35.5" r="3.6"/>
+      <circle cx="39.3" cy="78.25" r="3.6"/>
+      <circle cx="88.7" cy="78.25" r="3.6"/>
+    </g>
+  </g>
+</svg>
