@@ -102,8 +102,8 @@
     .ext-link:hover { text-decoration: underline; }
     @media (max-width: 768px) { .projects-grid { grid-template-columns: 1fr; } .project-cell { border-right: none; } }
 
-    .team-grid { display: grid; grid-template-columns: repeat(3, 1fr); }
-    .team-cell { border-top: 1px solid var(--border); border-right: 1px solid var(--border); padding: 2rem; position: relative; overflow: hidden; }
+    .team-grid { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--border); }
+    .team-cell { border-bottom: 1px solid var(--border); border-right: 1px solid var(--border); padding: 2rem; position: relative; overflow: hidden; }
     .team-cell:nth-child(3n) { border-right: none; }
     .team-cell::before { content: ''; position: absolute; right: -20px; bottom: -20px; width: 120px; height: 120px; border-radius: 50%; background: repeating-radial-gradient(circle, transparent 0, transparent 8px, var(--contour) 8px, var(--contour) 9px); opacity: var(--contour-op); pointer-events: none; }
     .avatar { width: 3rem; height: 3rem; border-radius: 50%; border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; font-family: 'Space Grotesk', system-ui, sans-serif; font-size: 0.75rem; font-weight: 600; color: var(--fg-muted); margin-bottom: 1rem; position: relative; overflow: hidden; }
@@ -329,6 +329,12 @@
       <div class="member-name">Isabelle Kohout</div>
       <div class="member-role">Researcher &middot; University of Cambridge</div>
       <div class="member-bio">MPhil candidate in Human-Inspired AI at the University of Cambridge. Previously a Senior Product Manager at Atlassian building AI systems used by hundreds of thousands globally, and co-leading their responsible AI governance program. Her research investigates how AI shapes individual beliefs and how those beliefs transmit to naive third parties, with implications for epistemic autonomy and democratic resilience.</div>
+    </div>
+    <div class="team-cell">
+      <div class="avatar"><img src="assets/team/sourojit-ghosh.png" alt="Sourojit Ghosh" /></div>
+      <div class="member-name"><a href="https://sourojitghosh.github.io/" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--border);">Dr. Sourojit Ghosh</a></div>
+      <div class="member-role">Researcher &middot; University of North Carolina at Chapel Hill</div>
+      <div class="member-bio">Assistant Professor in the School of Data and Information Sciences at UNC Chapel Hill and Affiliate Researcher to the Center for Information, Technology and Public Life. His work is on technological bias against historically marginalized populations often overlooked in traditional fairness research.</div>
     </div>
     <div class="team-cell">
       <div class="avatar"><img src="assets/team/Jin-Gao.jpg" alt="Jin Gao" /></div>
